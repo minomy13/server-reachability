@@ -1,2 +1,2 @@
 # ServerReachability
-This is a node.js plugin, which allows you to check, if different types of servers are online. 💾📡
+This is a node.js module, which allows you to check, if different types of servers are online. 💾📡
