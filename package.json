@@ -1,0 +1,25 @@
+{
+  "name": "server-reachability",
+  "version": "1.0.0",
+  "description": "This is a node.js plugin, which allows you to check, if different types of servers are online. 💾📡",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minomy13/server-reachability.git"
+  },
+  "keywords": [
+    "server",
+    "ping",
+    "reachability",
+    "tests"
+  ],
+  "author": "minomy13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minomy13/server-reachability/issues"
+  },
+  "homepage": "https://github.com/minomy13/server-reachability#readme"
+}
