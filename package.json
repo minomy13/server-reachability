@@ -2,7 +2,7 @@
   "name": "server-reachability",
   "version": "1.0.0",
   "description": "This is a node.js plugin, which allows you to check, if different types of servers are online. 💾📡",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
