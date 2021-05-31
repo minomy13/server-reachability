@@ -1,1 +1,1 @@
-module.exports = require('./lib/server-reachability');
+module.exports = require('./lib/server');
