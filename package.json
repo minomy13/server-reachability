@@ -4,7 +4,9 @@
   "description": "This is a node.js plugin, which allows you to check, if different types of servers are online. 💾📡",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --ci --coverage",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
