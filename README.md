@@ -19,4 +19,36 @@
     <img src="https://img.shields.io/github/last-commit/minomy13/server-reachability">
 </p>
 
-This is a node.js module, which allows you to check, if different types of servers are online. 💾📡
+This is a node.js module, which allows you to check, if different types of servers are online. Check the other sections for information about the installation and usage. 💾📡
+
+## Installation
+
+You can install it like every other npm package. Simply run `npm install server-reachability` in your termianl.
+
+## Usage
+
+After installing, you can begin to use it. At first you should import it, like:
+
+```js
+const sr = require('server-reachability';
+```
+
+### isReachable
+
+The `isReachable` function is asynchronous and gives back an boolean (`true` or `false`). So you have to await it. You have to give a hostname and a port to it. Code example:
+
+```js
+async function fn() {
+  console.log(await sr.isReachable('google.com', 80));
+}
+```
+
+Output:
+
+```bash
+true
+```
+
+## Support
+
+If you have questions, you can ask me everytime on my Discord. Cick the badge on the top.
