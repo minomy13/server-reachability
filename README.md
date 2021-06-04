@@ -30,7 +30,7 @@ You can install it like every other npm package. Simply run `npm install server-
 After installing, you can begin to use it. At first you should import it, like:
 
 ```js
-const sr = require('server-reachability';
+const sr = require('server-reachability');
 ```
 
 ### isReachable
@@ -38,9 +38,13 @@ const sr = require('server-reachability';
 The `isReachable` function is asynchronous and gives back an boolean (`true` or `false`). So you have to await it. You have to give a hostname and a port to it. Code example:
 
 ```js
+// Imports...
+
 async function fn() {
   console.log(await sr.isReachable('google.com', 80));
 }
+
+fn();
 ```
 
 Output:
