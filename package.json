@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test-coverage": "jest --coverage",
-    "codecov": "codecov"
+    "codecov": "codecov",
+    "publish": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
