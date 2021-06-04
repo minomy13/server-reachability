@@ -17,6 +17,9 @@
     </a>
     <img src="https://img.shields.io/github/languages/top/minomy13/server-reachability">
     <img src="https://img.shields.io/github/last-commit/minomy13/server-reachability">
+    <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fserver-reachability?ref=badge_shield" alt="FOSSA Status">
+        <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fserver-reachability.svg?type=shield"/>
+    </a>
 </p>
 
 This is a node.js module, which allows you to check, if different types of servers are online. Check the other sections for information about the installation and usage. 💾📡
@@ -56,3 +59,9 @@ true
 ## Support
 
 If you have questions, you can ask me everytime on my Discord. Cick the badge on the top.
+
+## License
+
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fminomy13%2Fserver-reachability?ref=badge_large" alt="FOSSA Status">
+    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fminomy13%2Fserver-reachability.svg?type=large"/>
+</a>
