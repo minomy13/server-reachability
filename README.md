@@ -38,13 +38,13 @@ const sr = require('server-reachability');
 
 ### isReachable
 
-The `isReachable` function is asynchronous and gives back an boolean (`true` or `false`). So you have to await it. You have to give a hostname and a port to it. Code example:
+The `isReachable` function is asynchronous and gives back an boolean (`true` or `false`). So you have to await it. You have to give a hostnamem, a port and a timeout in milliseconds to it. Code example:
 
 ```js
 // Imports...
 
 async function fn() {
-  console.log(await sr.isReachable('google.com', 80));
+  console.log(await sr.isReachable('google.com', 80, 5000));
 }
 
 fn();
